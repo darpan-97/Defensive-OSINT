@@ -246,7 +246,5 @@ DNS is the **foundational layer** of internet infrastructure. Passive DNS data r
 
 ## Next Steps
 
-- **[Domains, WHOIS & RDAP →](../../core/domains-whois-rdap/)** — Dig deeper into domain registration data
-- **[IP Intelligence & Geolocation →](../../core/ip-intel-geo/)** — Understand IP ownership and geographic context
-- **[Certificates & CT Logs →](../../core/certificates-ct-tls/)** — Discover infrastructure via TLS certificate metadata
-- **[SOC Playbook →](../../use-cases/soc/)** — Apply DNS intelligence to alert enrichment
+- **[OSINT Foundations →](../foundations/README.md)** — Core methodology and verification.
+- **[Reputation & Abuse →](../reputation-abuse-reporting/README.md)** — Investigating malicious infrastructure.

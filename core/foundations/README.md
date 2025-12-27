@@ -21,7 +21,7 @@ OSINT is not about tools—it's about **structured analysis of publicly availabl
 
 - **Single Source of Truth Caveats:** No single database is authoritative for all infrastructure data. Always corroborate.
 - **Temporal Awareness:** DNS records, IP ownership, and certificate histories change over time. Document timestamps.
-- **Attribution vs. Association:** Observing shared infrastructure does not prove common ownership or control. Use confidence frameworks (e.g., Unit 42 Attribution Model in [/use-cases/cti/](use-cases/cti/)).
+- **Attribution vs. Association:** Observing shared infrastructure does not prove common ownership or control. Use confidence frameworks for assessment.
 - **Legal & Jurisdictional Boundaries:** What is legal in one jurisdiction may not be in another. Understand your environment before acting.
 
 ---
@@ -106,7 +106,7 @@ If your OSINT research uncovers a security issue (e.g., exposed credentials, vul
 4. **Wait** for patch/response (typically 90 days) before public disclosure
 5. **Document** your disclosure timeline for credibility
 
-See [Reputation & Abuse](../../core/reputation-abuse-reporting/) for abuse contact workflows.
+See [Reputation & Abuse](../reputation-abuse-reporting/README.md) for abuse contact workflows.
 
 ---
 
@@ -222,7 +222,5 @@ Adapted from Unit 42 Attribution Model and Admiralty System:
 
 ## Next Steps
 
-- **New to OSINT?** Start with [/core/domains-whois-rdap/](core/domains-whois-rdap/) and [DNS Intelligence](../../core/dns/)
-- **SOC Analyst?** Jump to [SOC Alert Triage](../../use-cases/soc/)
-- **DFIR Investigator?** See [DFIR Investigation](../../use-cases/dfir/)
-- **Threat Hunter?** Explore [/core/identifiers-pivots/](core/identifiers-pivots/) and [/use-cases/threat-hunting/](use-cases/threat-hunting/)
+- **[DNS Intelligence →](../dns/README.md)** — Investigating network infrastructure.
+- **[Reputation & Abuse →](../reputation-abuse-reporting/README.md)** — Investigating malicious infrastructure.

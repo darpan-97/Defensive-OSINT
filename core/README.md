@@ -1,30 +1,12 @@
-# Layer A: Core Primitives
+# Core Resource Library
 
-A canonical library of OSINT resources organized by **data type** and **pivot capability**. Every tool appears once here, providing the single source of truth.
+A canonical library of OSINT resources organized by data type and capability.
 
-## Infrastructure Primitives
+## Available Categories
 
-- **[Domains, WHOIS & RDAP](./domains-whois-rdap/)**
-- **[DNS Intelligence](./dns/)**
-- **[IP Intelligence & Geolocation](./ip-intel-geo/)**
-- **[ASN, BGP & Routing](./asn-bgp-routing/)**
-- **[Hosting & Cloud Providers](./hosting-cloud/)**
-- **[CDN, WAF & Reverse Proxies](./cdn-waf-reverse-proxy/)**
-
-## Threat Visibility & Detection
-
-- **[VPN, Proxy & Tor Infrastructure](./vpn-proxy-tor/)**
-- **[Certificates & CT Logs](./certificates-ct-tls/)**
-- **[Web Fingerprinting & ASM](./web-fingerprinting-asm/)**
-- **[Internet-Wide Visibility Platforms](./internet-wide-visibility/)**
-- **[Reputation, Abuse & Reporting](./reputation-abuse-reporting/)**
-
-## Threat Intelligence & Enrichment
-
-- **[Threat Intelligence Standards & Datasets](./threat-intel/)**
-- **[Automation & Enrichment Pipelines](./automation-pipelines/)**
-- **[OSINT Foundations & Methodology](./foundations/)**
-- **[Pivot Graph & Attribution Methodology](./identifiers-pivots/)**
+- **[OSINT Foundations](./foundations/README.md)** — Methodology, verification, evidence handling, and legal guidance.
+- **[DNS Intelligence](./dns/README.md)** — Passive DNS, DNS records, nameserver analysis, and DNSSEC.
+- **[Reputation, Abuse & Reporting](./reputation-abuse-reporting/README.md)** — Blocklists, multi-engine reputation, and takedown workflows.
 
 ---
 

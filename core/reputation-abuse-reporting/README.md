@@ -295,7 +295,5 @@ Please confirm receipt and advise on takedown timeline.
 
 ## Next Steps
 
-- **[Internet-Wide Visibility Platforms →](../../core/internet-wide-visibility/)** — Expand reputation searches with Censys/Shodan
-- **[Threat Intelligence Standards →](../../core/threat-intel/)** — Structure findings for sharing (STIX/MISP)
-- **[SOC Playbook →](../../use-cases/soc/)** — Apply reputation data to alert triage
-- **[Phishing & Brand Protection →](../../use-cases/phishing-brand/)** — Use takedown workflows for campaigns
+- **[OSINT Foundations →](../foundations/README.md)** — Core methodology and verification.
+- **[DNS Intelligence →](../dns/README.md)** — Investigating network infrastructure.
